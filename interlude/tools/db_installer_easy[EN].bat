@@ -107,6 +107,7 @@ echo ^ Sucesfull 9 percents. ***
 @cls
 echo ^ Sucesfull 7 percents. ***
 %mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < ../sql/augmentations.sql
+%mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < ../sql/doors.sql
 @cls
 echo ^ Sucesfull 8 percents. ***
 %mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < ../sql/auto_announcements.sql
@@ -157,6 +158,7 @@ echo ^ Sucesfull 23 percents. ***
 @cls
 echo ^ Sucesfull 24 percents. ***
 %mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < ../sql/character_skills.sql
+%mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < ../sql/character_votes.sql
 @cls
 echo ^ Sucesfull 25 percents. ***
 %mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < ../sql/character_skills_save.sql

@@ -10,5 +10,6 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `lastServer` int(4) default 1,
   `allowed_ip` varchar(20) NOT NULL default '*',
   `hwid` VARCHAR(32) NOT NULL default '*',
+  `premium` BINING NOT NULL DEFAULT '0',
   PRIMARY KEY (`login`)
 );
