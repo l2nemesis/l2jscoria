@@ -13,5 +13,3 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `premium` BIGINT NOT NULL DEFAULT '0',
   PRIMARY KEY (`login`)
 ) DEFAULT CHARSET=utf8;
-
--- L2Emu-RT
